@@ -1,0 +1,198 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R1
+U 1 1 6176B631
+P 4900 3650
+F 0 "R1" V 4693 3650 50  0000 C CNN
+F 1 "330" V 4784 3650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 4830 3650 50  0001 C CNN
+F 3 "~" H 4900 3650 50  0001 C CNN
+	1    4900 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 6176BBC4
+P 4900 3750
+F 0 "R2" V 4693 3750 50  0000 C CNN
+F 1 "330" V 4784 3750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 4830 3750 50  0001 C CNN
+F 3 "~" H 4900 3750 50  0001 C CNN
+	1    4900 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5050 3750 5300 3750
+Wire Wire Line
+	5050 3650 5300 3650
+$Comp
+L Display_Character:CC56-12SURKWA U1
+U 1 1 61767A20
+P 6400 3950
+F 0 "U1" H 6400 4617 50  0000 C CNN
+F 1 "CC56-12SURKWA" H 6400 4526 50  0000 C CNN
+F 2 "Display_7Segment:CA56-12SURKWA" H 6400 3350 50  0001 C CNN
+F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/CC56-12SURKWA(Ver.7A).pdf" H 5970 3980 50  0001 C CNN
+	1    6400 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 4350 5300 4350
+Wire Wire Line
+	5300 4250 5050 4250
+Wire Wire Line
+	5050 4150 5300 4150
+Wire Wire Line
+	5300 4050 5050 4050
+Wire Wire Line
+	5050 3950 5300 3950
+Wire Wire Line
+	5300 3850 5050 3850
+$Comp
+L Device:R R7
+U 1 1 6176CA27
+P 4900 4250
+F 0 "R7" V 4693 4250 50  0000 C CNN
+F 1 "330" V 4784 4250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 4830 4250 50  0001 C CNN
+F 3 "~" H 4900 4250 50  0001 C CNN
+	1    4900 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 6176C6E7
+P 4900 4150
+F 0 "R6" V 4693 4150 50  0000 C CNN
+F 1 "330" V 4784 4150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 4830 4150 50  0001 C CNN
+F 3 "~" H 4900 4150 50  0001 C CNN
+	1    4900 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 6176C451
+P 4900 4050
+F 0 "R5" V 4693 4050 50  0000 C CNN
+F 1 "330" V 4784 4050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 4830 4050 50  0001 C CNN
+F 3 "~" H 4900 4050 50  0001 C CNN
+	1    4900 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 6176C237
+P 4900 3950
+F 0 "R4" V 4693 3950 50  0000 C CNN
+F 1 "330" V 4784 3950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 4830 3950 50  0001 C CNN
+F 3 "~" H 4900 3950 50  0001 C CNN
+	1    4900 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 6176BFC3
+P 4900 3850
+F 0 "R3" V 4693 3850 50  0000 C CNN
+F 1 "330" V 4784 3850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 4830 3850 50  0001 C CNN
+F 3 "~" H 4900 3850 50  0001 C CNN
+	1    4900 3850
+	0    1    1    0   
+$EndComp
+Text GLabel 4550 3650 0    50   Input ~ 0
+a
+Text GLabel 4550 3750 0    50   Input ~ 0
+b
+Text GLabel 4550 3850 0    50   Input ~ 0
+c
+Text GLabel 4550 3950 0    50   Input ~ 0
+d
+Text GLabel 4550 4250 0    50   Input ~ 0
+g
+Text GLabel 4550 4150 0    50   Input ~ 0
+f
+Wire Wire Line
+	4550 3950 4750 3950
+Wire Wire Line
+	4550 3850 4750 3850
+Wire Wire Line
+	4550 3750 4750 3750
+Wire Wire Line
+	4550 3650 4750 3650
+Text GLabel 4550 4050 0    50   Input ~ 0
+e
+Wire Wire Line
+	4550 4050 4750 4050
+Wire Wire Line
+	4550 4150 4750 4150
+Wire Wire Line
+	4550 4250 4750 4250
+$Comp
+L Connector_Generic:Conn_01x14 J2
+U 1 1 617844BA
+P 4200 4200
+F 0 "J2" H 4280 4192 50  0000 L CNN
+F 1 "Conn_01x14" H 4280 4101 50  0000 L CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x14_P2.00mm_Vertical" H 4200 4200 50  0001 C CNN
+F 3 "~" H 4200 4200 50  0001 C CNN
+	1    4200 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x14 J1
+U 1 1 61777E3A
+P 3800 4200
+F 0 "J1" H 3880 4192 50  0000 L CNN
+F 1 "Conn_01x14" H 3880 4101 50  0000 L CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x14_P2.00mm_Vertical" H 3800 4200 50  0001 C CNN
+F 3 "~" H 3800 4200 50  0001 C CNN
+	1    3800 4200
+	1    0    0    -1  
+$EndComp
+Text GLabel 3450 3700 0    50   Input ~ 0
+a
+Text GLabel 3450 3800 0    50   Input ~ 0
+b
+Text GLabel 3450 3900 0    50   Input ~ 0
+c
+Text GLabel 3450 4000 0    50   Input ~ 0
+d
+Wire Wire Line
+	3450 3700 3600 3700
+Wire Wire Line
+	3450 3800 3600 3800
+Wire Wire Line
+	3450 3900 3600 3900
+Wire Wire Line
+	3450 4000 3600 4000
+Wire Wire Line
+	3400 4700 3600 4700
+Wire Wire Line
+	3400 4600 3600 4600
+Text GLabel 3400 4700 0    50   Input ~ 0
+g
+Text GLabel 3400 4600 0    50   Input ~ 0
+f
+Text GLabel 3450 4100 0    50   Input ~ 0
+e
+Wire Wire Line
+	3450 4100 3600 4100
+$EndSCHEMATC
